@@ -4,16 +4,20 @@ import './index.css';
 
 
 import Navbar from './components/navbar/navbar';
+//import Banner from './components/banner/banner';     <Banner/>
 import Info from './components/info/info';
+import Feat from './components/features/feat';
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-
+ 
     <Navbar/>
-    <Info/>
     
+    <Info/>
+    <Feat/>
 
 
   </React.StrictMode>
