@@ -7,6 +7,11 @@ import Navbar from './components/navbar/navbar';
 //import Banner from './components/banner/banner';     <Banner/>
 import Info from './components/info/info';
 import Feat from './components/features/feat';
+import Ubicanos from './components/ubicanos/ubi';
+import Opinion from './components/opinion/opi';
+import Footer from './footer/footer';
+
+
 
 import reportWebVitals from './reportWebVitals';
 
@@ -18,7 +23,10 @@ root.render(
     
     <Info/>
     <Feat/>
-
+    
+    <Ubicanos/>
+    <Opinion/>
+    <Footer/>
 
   </React.StrictMode>
 );
