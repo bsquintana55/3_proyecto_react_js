@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+      --azulclaro: #48D6ED;
+      --azuloscuro: #337AB7;
+      --azulnegro: #303342;
+      --negro: #333333;
+      --negro2: #000;
+      --gris: #B2B3B3;
+      --fondo: #FFFEFC;
+      --verdeazul: #157A8A;
+      --Magenta: #9C2759;
+      --blanco: #fff;
+      --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+} 
+
+*{
+    margin:0;
+}
+
+body{
+    font-family: 'Marcellus', serif;
+    font-size: 16px;
+}
+
+
+h1,h2,h3,h4,h5{
+    font-family: 'Marcellus', serif;
+}
+
+
+
+.ubicanos h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    font-size: 3em;
+}
+
+
+
+.mapa{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+
+.mapa iframe{
+    width: 100%;
+}
+
+
+
+.direccion h3{
+    color: var(--negro2);
+    font-size: 1.7em;
+    display: flex;
+    justify-content: center;
+    font-weight: 200;
+    text-align: center;
+    
+}
+
+.linea{
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #2e8cdf;
+    width: 50%;
+    height: 0.1em;
+    margin-bottom: 1rem;
+    
+}
+
