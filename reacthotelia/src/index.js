@@ -9,9 +9,17 @@ import Info from './components/info/info';
 import Feat from './components/features/feat';
 import Ubicanos from './components/ubicanos/ubi';
 import Opinion from './components/opinion/opi';
-import Footer from './footer/footer';
+import Footer from './components/footer/footer';
+import Login from './components/login/login';
 
-
+/*    <Navbar/>
+    
+    <Info/>
+    <Feat/>
+    
+    <Ubicanos/>
+    <Opinion/>
+    <Footer/> */
 
 import reportWebVitals from './reportWebVitals';
 
@@ -19,14 +27,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
  
-    <Navbar/>
-    
-    <Info/>
-    <Feat/>
-    
-    <Ubicanos/>
-    <Opinion/>
-    <Footer/>
+ <Login/>
 
   </React.StrictMode>
 );

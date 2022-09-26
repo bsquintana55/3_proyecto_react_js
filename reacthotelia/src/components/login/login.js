@@ -1,5 +1,5 @@
 import './login.css';
-
+import logo from './horizontal_negro.svg';
 function Login() {
     return(
       
@@ -7,7 +7,7 @@ function Login() {
      
     <div class="cajagrande"> 
         <div id="logo">
-            <img src="../img/Hotelia horizontal negro.svg"/>
+            <img src={logo}/>
         </div>
         <div class="peque">
             <i class="fa-solid fa-user"></i>
