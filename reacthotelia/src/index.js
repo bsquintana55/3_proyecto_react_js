@@ -3,6 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 
+
+import Login from './components/login/login';
+
+/*
+import Login from './components/login/login';
+ <Login/>
+*/ 
+
+/*    
 import Navbar from './components/navbar/navbar';
 //import Banner from './components/banner/banner';     <Banner/>
 import Info from './components/info/info';
@@ -10,16 +19,16 @@ import Feat from './components/features/feat';
 import Ubicanos from './components/ubicanos/ubi';
 import Opinion from './components/opinion/opi';
 import Footer from './components/footer/footer';
-import Login from './components/login/login';
-
-/*    <Navbar/>
+    <Navbar/>
     
     <Info/>
     <Feat/>
     
     <Ubicanos/>
     <Opinion/>
-    <Footer/> */
+    <Footer/> 
+
+*/
 
 import reportWebVitals from './reportWebVitals';
 
