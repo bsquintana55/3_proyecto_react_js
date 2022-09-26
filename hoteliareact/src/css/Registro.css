@@ -1,0 +1,56 @@
+
+.bloque{
+    width: 100vh;   
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;  
+    background-color: #0b3860af;
+    font-size:xx-large;
+    align-content: center;
+    margin-top: 2rem;
+  }
+  .bloque{
+    width: 26%;   
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;  
+    position: fixed;
+    background-color: #0b3860d2;
+    font-size:  27px;
+  
+  }
+     
+  .logo img{
+    width: 50%;
+    padding-bottom: 4px;
+  }
+  
+  .txt   .cel{
+    display: none;
+  }
+  
+  .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body{
+    height: 110vh;
+    
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  
+  .App{
+    min-height: 100vh;
+    display:flex;
+    flex-wrap:wrap;
+   
+   text-align: center;
+  }
