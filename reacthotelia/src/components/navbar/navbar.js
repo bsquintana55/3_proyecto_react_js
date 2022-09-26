@@ -13,7 +13,7 @@ function Navbar() {
                 <a href="ubicacion.html" class="item">Ubícanos</a>
                 <a href="opiniones.html" class="item">Opiniones</a>
                 <hr class="menu-hr" noshade=""/> 
-                <a href="login.html" class="item2"><i class="fa-solid fa-user"></i> Iniciar Sesión</a>
+                <a href="" class="item2"><i class="fa-solid fa-user"></i> Iniciar Sesión</a>
         </div>
         
 
