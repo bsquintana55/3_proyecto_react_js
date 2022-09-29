@@ -4,29 +4,25 @@ import './index.css';
 
 
 
-import Login from './components/login/login';
+
 
 /*
 import Login from './components/login/login';
  <Login/>
 */ 
 
-/*    
-import Navbar from './components/navbar/navbar';
-//import Banner from './components/banner/banner';     <Banner/>
-import Info from './components/info/info';
-import Feat from './components/features/feat';
-import Ubicanos from './components/ubicanos/ubi';
-import Opinion from './components/opinion/opi';
-import Footer from './components/footer/footer';
-    <Navbar/>
+   
+import Navbar from './components/navbar/Navbar';
+import Banner from './components/banner/Banner';     
+import Info from './components/info/Info';
+import Feat from './components/features/Features';
+import Ubicanos from './components/ubicanos/Ubicanos';
+import Opinion from './components/opinion/Opinion';
+import Footer from './components/footer/Footer';
+
+  /* 
     
-    <Info/>
-    <Feat/>
-    
-    <Ubicanos/>
-    <Opinion/>
-    <Footer/> 
+    <Login/>
 
 */
 
@@ -36,7 +32,15 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
  
- <Login/>
+ <Navbar/>
+  <Banner/>
+    <Info/>
+    <Feat/>
+    
+    <Ubicanos/>
+    <Opinion/>
+    <Footer/> 
+    
 
   </React.StrictMode>
 );
