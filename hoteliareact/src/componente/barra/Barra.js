@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './horizontal_blanco.svg';
+import logo from '../../componente/horizontal_blanco.svg';
 
 function Barra(){
    return(
