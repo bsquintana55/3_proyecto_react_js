@@ -23,7 +23,7 @@
 body{
       font-family: 'Marcellus', serif;
       font-size: 16px;
-      background: url(./componente/slide2.png);
+      background: url(../../componente/img/slide2.png);
       background-size: cover;
       background-repeat: no-repeat;
 }
@@ -63,7 +63,7 @@ section{
 
 
 .persona{
-      background: url(./componente/cajopinion.png);
+      background: url(../../componente/img/cajopinion.png);
       background-size: cover;
       background-repeat: no-repeat;
       display: flex;
@@ -152,7 +152,7 @@ i#iconS{
 
 .informacion{
     height: 100vh;
-    background-image: url(./componente/slide2.png);
+    background-image: url(../../componente/img/slide2.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;

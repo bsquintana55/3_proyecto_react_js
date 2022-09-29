@@ -1,6 +1,6 @@
 import React from 'react';
 
-import cara6 from '../../componente/cara6.jpg';
+import cara6 from '../../componente/img/cara6.jpg';
 function Info(){
    return(
   
