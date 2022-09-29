@@ -1,12 +1,15 @@
 import './App.css';
+import Barra from './componente/barra/Barra.js'
 
-import Registro from './componentes/Registro'
+import Datos from './componente/datos/Datos';
 function App() {
   return (
     <div className="App">
      
    
-     <Registro />
+     <Barra />
+   
+     <Datos/>
     </div>
 
   );

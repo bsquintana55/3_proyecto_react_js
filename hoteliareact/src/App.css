@@ -15,7 +15,7 @@
 @media screen and (min-width: 600px) and (max-width: 2000px){
     body{
         height: 110vh;
-    
+        background-image: url(./componente/registrarfondo.jpg);
         background-repeat: no-repeat;
         background-size: cover; 
     }
@@ -191,7 +191,6 @@
 }
 @media screen  and (max-width: 600px){
     body{
-       
        
         background-size: cover;
         width: 100vh;
