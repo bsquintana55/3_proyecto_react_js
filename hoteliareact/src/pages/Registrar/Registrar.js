@@ -1,6 +1,6 @@
 import './Registrar.css';
-import Barra from '../../componente/barra/Barra.js';
-import Datos from '../../componente/datos/Datos.js';
+import Barra from '../../../../reacthotelia/src/components/barra/Barra.js';
+import Datos from '../../../../reacthotelia/src/components/datos/Datos.js';
 
 function Registrar() {
   return (

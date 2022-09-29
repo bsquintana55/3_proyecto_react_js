@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from '../../componente/img/horizontal_blanco.svg';
-import logo2 from '../../componente/img/hotelia campana.svg';
-import cara6 from '../../componente/img/cara6.jpg';
+import logo from '../../components/img/horizontal_blanco.svg';
+import logo2 from '../../components/img/hotelia campana.svg';
+import cara6 from '../../components/img/cara6.jpg';
 
 
 function Usbar(){
