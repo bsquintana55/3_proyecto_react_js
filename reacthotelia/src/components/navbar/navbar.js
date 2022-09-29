@@ -1,5 +1,7 @@
 import './navbar.css';
 import logo from './horizontal_blanco.svg';
+import './menu.js'
+
 function Navbar() {
     return(
         <nav>
@@ -12,13 +14,11 @@ function Navbar() {
                 <a href="index.html" class="item">Inicio</a>
                 <a href="ubicacion.html" class="item">Ubícanos</a>
                 <a href="opiniones.html" class="item">Opiniones</a>
-                <hr class="menu-hr" noshade=""/> 
-                <a href="" class="item2"><i class="fa-solid fa-user"></i> Iniciar Sesión</a>
+                <hr class="menu-hr" noshade=""/>
+                <a href="login.html" class="item2"><i class="fa-solid fa-user"></i> Iniciar Sesión</a>
         </div>
-        
 
-     
-    
+
      
     </nav>
     
