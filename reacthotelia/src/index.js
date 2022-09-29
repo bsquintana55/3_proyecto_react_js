@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
+
+import Favicon from 'react-favicon'
+
+
 import './index.css';
-
-
-
-
-
 /*
 import Login from './components/login/login';
  <Login/>
@@ -30,8 +30,9 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  
   <React.StrictMode>
- 
+ <Favicon url='http://oflisback.github.io/react-favicon/img/github.ico' />
  <Navbar/>
   <Banner/>
     <Info/>
