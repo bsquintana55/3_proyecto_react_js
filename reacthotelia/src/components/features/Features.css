@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+      --azulclaro: #48D6ED;
+      --azuloscuro: #337AB7;
+      --azulnegro: #303342;
+      --negro: #333333;
+      --negro2: #000;
+      --gris: #B2B3B3;
+      --fondo: #FFFEFC;
+      --verdeazul: #157A8A;
+      --Magenta: #9C2759;
+      --blanco: #fff;
+      --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+} 
+
+*{
+    margin:0;
+}
+
+body{
+    font-family: 'Marcellus', serif;
+    font-size: 16px;
+}
+
+
+h1,h2,h3,h4,h5{
+    font-family: 'Marcellus', serif;
+}
+
+
+
+#features{
+    background: url(../features/bg-features.png);
+    color: white;
+    padding-top: 1rem;
+}
+
+
+
+.features-title{
+    background-color: rgba(0, 0, 0, 0.342);
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+
+
+
+.features-description{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.feature {
+   
+    min-width: 180px;
+    max-width: 230px;
+    margin: 2rem;
+    padding: 1.8rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.feature i{
+
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.feature p{
+    text-align: center;
+}
+
+.feature-blue{
+    background-color: rgba(9, 53, 104, 0.63);
+}
+
+
+.feature-black
+{
+    background-color: rgba(0, 0, 0, 0.719);
+}
+
+
+
+
+/* Resoluciòn Movile*/
+@media screen and (min-width: 200px) and (max-width: 768px) {
+
+    .feature {
+        width: 25%;
+        min-width: 180px;
+        max-width: 230px;
+        margin: 1rem;
+        padding: 0.8rem;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3px;
+    }
+
+  .features-description{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+  
+
+}

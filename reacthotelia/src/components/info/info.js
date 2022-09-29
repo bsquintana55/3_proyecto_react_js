@@ -1,5 +1,5 @@
 import './info.css';
-import logo from './horizontal_negro.svg';
+import logo from './negro_vertical.svg';
 function Info() { 
     return(
 
