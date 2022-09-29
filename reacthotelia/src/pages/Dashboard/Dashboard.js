@@ -1,6 +1,6 @@
 import './dash.css';
-import Usbar from '../../../../reacthotelia/src/components/usbar/Usbar.js'
-import Info from '../../../../reacthotelia/src/components/infodash/Info.js';
+import Usbar from '../../components/usbar/Usbar.js'
+import Info from '../../components/infodash/Info.js';
 
 function Dashapp() {
   return (
