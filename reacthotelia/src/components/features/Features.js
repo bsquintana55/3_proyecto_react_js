@@ -1,4 +1,4 @@
-import './feat.css';
+import './Features.css';
 //pregunar sobre los iconos 
 function Feat() { 
     return(
