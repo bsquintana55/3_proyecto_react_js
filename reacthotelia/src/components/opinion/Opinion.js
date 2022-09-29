@@ -40,12 +40,12 @@ function Opinion() {
                    
                 </div>
                 <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+          </div>  
                 <div class="descripcion">                            
                     <p>Lorem ipsum dolor sit amet, consectet adipiscing elit.
                         Elit quis enim ultricies ullamcorper.
@@ -61,12 +61,12 @@ function Opinion() {
                     
                 </div>
                 <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star roja"></i>
-                </div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+          </div>  
                 <div class="descripcion">                            
                     <p>Lorem ipsum dolor sit amet, consectet adipiscing elit.Elit quis enim 
                         ultricies ullamcorper. Nunc aenean auctor vel diam dictum.</p>
@@ -84,7 +84,8 @@ function Opinion() {
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-              <div class="carousel-item active">
+              <div class="carousel-item active"> 
+
                 <div id="op" class="d-block w-100">
                     <div class="nombreP">
                         <img src="https://www.redaccionmedica.com/images/destacados/-buscamos-la-recuperacion-completa-de-la-persona-con-depresion--7353.jpg

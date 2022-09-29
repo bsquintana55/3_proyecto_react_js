@@ -4,15 +4,13 @@ import ReactDOM from 'react-dom/client';
 
 import Favicon from 'react-favicon'
 
-
 import './index.css';
 /*
 import Login from './components/login/login';
  <Login/>
 */ 
 
-   
-import Navbar from './components/navbar/Navbar';
+ import Navbar from './components/navbar/Navbar';
 import Banner from './components/banner/Banner';     
 import Info from './components/info/Info';
 import Feat from './components/features/Features';
@@ -21,8 +19,8 @@ import Opinion from './components/opinion/Opinion';
 import Footer from './components/footer/Footer';
 
   /* 
-    
-    <Login/>
+   
+    <Login/> 
 
 */
 
@@ -33,14 +31,14 @@ root.render(
   
   <React.StrictMode>
  <Favicon url='http://oflisback.github.io/react-favicon/img/github.ico' />
- <Navbar/>
-  <Banner/>
+
+    <Navbar/>
+    <Banner/>
     <Info/>
     <Feat/>
-    
     <Ubicanos/>
-    <Opinion/>
-    <Footer/> 
+        <Opinion/>
+        <Footer/> 
     
 
   </React.StrictMode>
