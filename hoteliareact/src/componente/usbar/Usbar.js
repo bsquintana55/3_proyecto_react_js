@@ -3,6 +3,7 @@ import logo from '../../componente/horizontal_blanco.svg';
 import logo2 from '../../componente/hotelia campana.svg';
 import cara6 from '../../componente/cara6.jpg';
 
+
 function Usbar(){
    return(
   
