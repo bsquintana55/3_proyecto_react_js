@@ -38,6 +38,11 @@ nav{
       padding: 1rem;
 }
 
+.menu{
+      display: flex;
+      justify-content: space-between;
+}
+
 
 
 .item{
@@ -59,13 +64,14 @@ nav a{
 
 nav a:hover{
     color: var(--azuloscuro);
-    width: 100%;
+ 
 }
 
 
 
 .logo img{
-    height: 4rem;     
+      height: 3.5rem;
+      padding-left: 2rem; 
 }
 
 
