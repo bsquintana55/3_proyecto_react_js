@@ -3,7 +3,7 @@ import logo from './horizontal_negro.svg';
 function Login() {
     return(
       
-
+<section className='bodyLogin'>
      
     <div class="cajagrande"> 
         <div id="logo">
@@ -29,13 +29,13 @@ function Login() {
 
                 <p>¿No tienes una cuenta? <a href="/registrar.html">Regístrate aquí.</a> </p>
                 <br/>
-                <p>¿quiere ir al index? <a href="/index.html">Clic Aqui.</a> </p>
+                <p>¿quiere ir al index? <a href="/">Clic Aqui.</a> </p>
             </form>
         
         </div>
     </div>
 
-      
+    </section>
     );
     
 

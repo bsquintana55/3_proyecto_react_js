@@ -1,46 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
-
-import Favicon from 'react-favicon'
+import reportWebVitals from './reportWebVitals';
+import {BrowserRouter, Route, Routes } from "react-router-dom";
 
 import './index.css';
-/*
-import Login from './components/login/login';
- <Login/>
-*/ 
 
- import Navbar from './components/navbar/Navbar';
-import Banner from './components/banner/Banner';     
-import Info from './components/info/Info';
-import Feat from './components/features/Features';
-import Ubicanos from './components/ubicanos/Ubicanos';
-import Opinion from './components/opinion/Opinion';
-import Footer from './components/footer/Footer';
+import Inicio from './pages/index/inicio.js';
+import Login from './components/login/Login';
 
-  /* 
-   
-    <Login/> 
 
-*/
 
-import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
   <React.StrictMode>
- <Favicon url='http://oflisback.github.io/react-favicon/img/github.ico' />
-
-    <Navbar/>
-    <Banner/>
-    <Info/>
-    <Feat/>
-    <Ubicanos/>
-        <Opinion/>
-        <Footer/> 
+    <BrowserRouter>
+    <Routes>
     
-
+    <Route path={'/'} element={<Inicio />}/>
+    <Route path={'/Login'} element={<Login />}/>
+ 
+    </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

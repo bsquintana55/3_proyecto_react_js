@@ -22,7 +22,7 @@
     margin: 0;
 }
 
-body{
+.bodyLogin{
     background: url(../login/pieza.png) no-repeat;
     background-size: cover;
     color: white;

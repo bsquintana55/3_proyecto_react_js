@@ -3,6 +3,7 @@ import './ubi.css';
 
 
 function Ubicanos() { 
+    
     return(
       
     <section class="ubicacion">
