@@ -13,10 +13,10 @@ function Navbar() {
         </div>
 
         <div class="menu">
-                <a href="index.html" class="item">Inicio</a>
-                <a href="ubicacion.html" class="item">Ubícanos</a>
-                <a href="opiniones.html" class="item">Opiniones</a>
-                <hr class="menu-hr" noshade=""/>
+                <a href="/" class="item">Inicio</a>
+                <a href="/" class="item">Ubícanos</a>
+                <a href="/" class="item">Opiniones</a>
+                <hr class="/" noshade=""/>
                 <a href="Login" class="item2"><i class="fa-solid fa-user"></i> Iniciar Sesión</a>
         </div>
 

@@ -20,7 +20,7 @@ function Login() {
 
                 <div class="picky">
                     <label for="">Contraseña</label>
-                    <input type="text"/>
+                    <input type="password"/>
                 </div>
 
 
