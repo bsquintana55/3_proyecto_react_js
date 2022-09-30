@@ -1,0 +1,88 @@
+@media screen and (min-width: 600px) and (max-width: 2000px){
+  *{
+    margin: 0%;
+}
+.regbody{
+    height: 110vh;
+    background-image: url(../../components/img/registrarfondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.bloque{
+    width: 26%;   
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;  
+    position: fixed;
+    background-color: #0b3860d2;
+    font-size:  27px;
+  
+}
+.logo img{
+    width: 50%;
+    padding-bottom: 4px;
+}
+
+.txt   .cel{
+    display: none;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Marcellus', serif;
+    margin-left: 10px;
+}
+@media screen  and (max-width: 600px){
+.regbody{
+   
+    background-size: cover;
+    width: 100vh;
+   
+}
+   
+h1,h2,h3,h4,h5{
+    font-family: 'Marcellus', serif;
+}
+
+ 
+*{
+    margin: 0%;
+}
+
+.bloque{
+    width: 100vh;   
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;  
+    background-color: #0b3860af;
+    font-size:xx-large;
+    align-content: center;
+    margin-top: 2rem;
+}
+.txt .cel{
+    font-size: 1.5rem;
+}
+.logo img{
+    width: 40%;   
+    padding-bottom: 1rem;
+}
+
+.txt .compt {
+    display: none;}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}}

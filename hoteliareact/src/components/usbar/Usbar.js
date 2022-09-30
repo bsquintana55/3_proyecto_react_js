@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../../components/img/horizontal_blanco.svg';
 import logo2 from '../../components/img/hotelia campana.svg';
 import cara6 from '../../components/img/cara6.jpg';
+import {Link} from 'react-router-dom';
 
 
 function Usbar(){
@@ -33,7 +34,7 @@ function Usbar(){
             <a href="" class="serv"><i class="fa-solid fa-bell-concierge" id="iconS"></i><p>Habitaciones</p></a>
             </div>
             <div class="cerrar">
-                  <a href="../index.html"><i class="fa-solid fa-arrow-right-from-bracket" id="serv"></i><p>Cerrar sesión</p></a>
+            <Link to='/Registrar'><i class="fa-solid fa-arrow-right-from-bracket" id="serv"></i><p>Cerrar sesión</p></Link>
             </div>
       </div>              
 </section>

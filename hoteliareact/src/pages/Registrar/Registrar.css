@@ -15,7 +15,7 @@
 @media screen and (min-width: 600px) and (max-width: 2000px){
     body{
         height: 110vh;
-        background-image: url(../../componente/img/registrarfondo.jpg);
+        background-image: url(../../components/img/registrarfondo.jpg);
         background-repeat: no-repeat;
         background-size: cover; 
     }
@@ -45,14 +45,14 @@
       
     }
     
-    .form{
+    .from{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         padding: 2%;  
     }
     
-    .logo img{
+    .logop img{
         width: 50%;
         padding-bottom: 4px;
     }
@@ -61,7 +61,7 @@
         display: none;
     }
     
-    .logo{
+    .logop{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -80,13 +80,13 @@
     }
     
     
-    label{
+    .labelr{
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         margin-bottom: 0.3rem;
     }
     
-    input{
+    .inputr{
         width: 100%;
         padding: 2%;
         border: none;
@@ -191,7 +191,7 @@
 }
 @media screen  and (max-width: 600px){
     body{
-       
+        background-image: url(../../components/img/registrarfondo.jpg);
         background-size: cover;
         width: 100vh;
        
@@ -221,14 +221,14 @@
         margin-top: 2rem;
     }
     
-    .form{
+    .from{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         padding: 2%;  
     }
     
-    .logo img{
+    .logop img{
         width: 40%;   
         padding-bottom: 1rem;
     }
@@ -241,7 +241,7 @@
         font-size: 1.5rem;
     }
     
-    .logo{
+    .logop{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -263,14 +263,14 @@
         
     }
     
-    label{
+    .labelr{
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         margin-bottom: 0.3rem;
         font-size: 0.9rem;
     }
     
-    input{
+    .inputr{
         width: 100%;
         padding: 1.5%;
         border: none;

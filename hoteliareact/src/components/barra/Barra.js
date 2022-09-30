@@ -1,22 +1,22 @@
 import React from 'react';
-import logo from '../../componente/img/horizontal_blanco.svg';
+import logo from '../../components/img/horizontal_blanco.svg';
+
+
 
 function Barra(){
    return(
-  
+  <section class="reg">
     <section className='bloque'>
-             <div class="logo">
-    
-    <img src={logo}/>
-    <i class="fa-solid fa-bars icono"></i>
-</div>
+             <div class="logop">
+            <img src={logo}/>
+            </div>
             <div className='txt'>
-            <h4 className='compt'>Eres más que  bienvenido</h4><br/>
+            <h4 className='compt'>Eres más que  bienvenido</h4>
             <h4 className='cel'>Un lugar en tu corazón</h4>
         </div>
       
       </section>
-    
+      </section>
    );
    
 } 

@@ -23,7 +23,7 @@
 body{
       font-family: 'Marcellus', serif;
       font-size: 16px;
-      background: url(../../componente/img/slide2.png);
+      background: url(../../components/img/slide2.png);
       background-size: cover;
       background-repeat: no-repeat;
 }
@@ -46,7 +46,6 @@ section{
       flex-direction: column;
       height: 100vh;  
       position: fixed;
-   
 }
 
 
@@ -63,7 +62,7 @@ section{
 
 
 .persona{
-      background: url(../../componente/img/cajopinion.png);
+      background: url(../../components/img/cajopinion.png);
       background-size: cover;
       background-repeat: no-repeat;
       display: flex;
@@ -73,7 +72,7 @@ section{
       height: 30%;  
 }
 
-
+ 
 .logo img{
       width: 60%;   
 }
@@ -152,7 +151,7 @@ i#iconS{
 
 .informacion{
     height: 100vh;
-    background-image: url(../../componente/img/slide2.png);
+    background-image: url(../../components/img/slide2.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -266,7 +265,7 @@ i#iconS{
 }
 
 
-.form input{
+.formin{
     width: 25em;
     height: 2em;
     border: none;
@@ -274,7 +273,7 @@ i#iconS{
     border-bottom: 2px solid var(--gris);
 }
 
-.form input[type=radio]{
+.formin[type=radio]{
     width: 5em;
     
 }
@@ -306,7 +305,7 @@ i#iconS{
 }
 
 
-.form label{
+.forml{
     color: black;
     font-weight: 200;
     font-size: 1em;
@@ -336,6 +335,9 @@ i#iconS{
 
 
 @media screen and (min-width: 300px)and (max-width: 780px){
+    *{
+        margin: 0%;
+    }
     .logo .desktop{
         display: none;
     }
@@ -476,7 +478,7 @@ i#iconS{
     }
     
     
-    .left-form input{
+    .left-formin{
       margin-top: 5%;
       margin-bottom: 10%;
 
@@ -488,7 +490,7 @@ i#iconS{
     }
     
     
-    .right-form input{
+    .right-formin{
       margin-top: 5%;
       margin-bottom: 8%;
     }
@@ -515,12 +517,12 @@ i#iconS{
     }
 
 
-    .form input{
+    .formin{
         width: 90%;
     }
 
 
-    .form input[type=radio]{
+    .formin[type=radio]{
         width: 1em;
         
     }
@@ -543,6 +545,9 @@ i#iconS{
 
 
 @media screen and (min-width: 780px) and (max-width: 1024px)  {
+    *{
+        margin: 0%;
+    }
     .descripcion img{
         display: flex;
     }
