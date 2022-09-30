@@ -6,7 +6,7 @@ import {BrowserRouter, Route, Routes } from "react-router-dom";
 import './index.css';
 
 import Inicio from './pages/index/inicio.js';
-import Login from './components/login/Login';
+import Login from './pages/login/login.js';
 
 
 
@@ -20,7 +20,8 @@ root.render(
     
     <Route path={'/'} element={<Inicio />}/>
     <Route path={'/Login'} element={<Login />}/>
- 
+   
+
     </Routes>
     </BrowserRouter>
   </React.StrictMode>

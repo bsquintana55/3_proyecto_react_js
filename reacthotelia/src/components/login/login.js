@@ -6,7 +6,7 @@ function Login() {
 <section className='bodyLogin'>
      
     <div class="cajagrande"> 
-        <div id="logo">
+        <div id="logologin">
             <img src={logo}/>
         </div>
         <div class="peque">

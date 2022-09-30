@@ -34,13 +34,13 @@
    
 }
 
-#logo{
+#logologin{
     display: flex;
     justify-content: flex-start;
     padding: 1rem;
     
    
-} #logo img{
+} #logologin img{
     width:10rem;
 }
 
