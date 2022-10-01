@@ -1,46 +1,55 @@
-/*import React from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
-
-
-import Favicon from 'react-favicon'
+import reportWebVitals from './reportWebVitals';
+import {BrowserRouter, Route, Routes } from "react-router-dom";
 
 import './index.css';
-/*
-import Login from './components/login/login';
- <Login/>
 
+import Inicio from './pages/index/inicio.js';
+import Login from './pages/login/login.js';
 
- import Navbar from './components/navbar/Navbar';
-import Banner from './components/banner/Banner';     
-import Info from './components/info/Info';
-import Feat from './components/features/Features';
-import Ubicanos from './components/ubicanos/Ubicanos';
-import Opinion from './components/opinion/Opinion';
-import Footer from './components/footer/Footer';
+import Dashboard from './pages/Dashboard/Dashboard.js';
+import Registrar from './pages/Registrar/Registrar.js';
 
-  /* 
-   
-    <Login/> 
+import Error404 from './pages/error/Error404.js';
 
 
 
-import reportWebVitals from './reportWebVitals';
+import "https://kit.fontawesome.com/6131ecdde6.js";
+
+
+
+/*  
+<BrowserRouter>
+ <Routes>
+    
+    
+     <Route path={'/'} element={<Inicio />}/>
+    <Route path={'/Login'} element={<Login />}/>
+    <Route path={'/Registrar'} element={<Registrar/>} />
+    <Route path={'/Dashboard'} element={<Dashboard/>} />
+
+    </Routes>
+    </BrowserRouter>
+     */
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
   <React.StrictMode>
- <Favicon url='http://oflisback.github.io/react-favicon/img/github.ico' />
-
-    <Navbar/>
-    <Banner/>
-    <Info/>
-    <Feat/>
-    <Ubicanos/>
-        <Opinion/>
-        <Footer/> 
+ <BrowserRouter>
+ <Routes>
     
+    
+     <Route path={'/'} element={<Inicio />}/>
+    <Route path={'/Login'} element={<Login />}/>
+    <Route path={'/Registrar'} element={<Registrar/>} />
+    <Route path={'/Dashboard'} element={<Dashboard/>} />
+    <Route path={'/*'} element={<Error404/>} />
 
+    </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
@@ -48,22 +57,5 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
-*/
-
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import '../../reacthotelia/src/pages/Dashboard/dash.css';
-import Dashboard from '../../reacthotelia/src/pages/Dashboard/Dashboard.js';
-import Registrar from '../../reacthotelia/src/pages/Registrar/Registrar.js';
-import '../../reacthotelia/src/pages/Registrar/Registrar.css'
-import "https://kit.fontawesome.com/6131ecdde6.js";
 
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <Dashboard />
-    <Registrar />
-  </React.StrictMode>
-);
