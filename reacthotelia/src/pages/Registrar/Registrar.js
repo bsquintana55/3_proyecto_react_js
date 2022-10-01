@@ -4,7 +4,7 @@ import Datos from '../../components/datos/Datos.js';
 
 function Registrar() {
   return (
-    <div >
+    <div className="bodyreg">
      <Barra />
      <Datos/>
     </div>

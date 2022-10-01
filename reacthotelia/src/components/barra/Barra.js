@@ -6,7 +6,7 @@ import logo from '../img/horizontal_blanco.svg';
 
 function Barra(){
    return(
-   <section className='bodyreg'>
+  
        
          <section className='bloque'>
 
@@ -20,7 +20,7 @@ function Barra(){
                </div>
             
          </section>
-   </section> 
+
  
    );
    

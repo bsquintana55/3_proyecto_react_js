@@ -69,14 +69,15 @@
     
     .caja{
         width: 60%;
-        height: 87vh;
+        height: 94vh;
         margin-left: 30%;
         border-radius: 1%;
         background-color: rgba(255, 255, 255, 0.74);
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         padding: 3%;
+        padding-bottom: 3rem;
     }
     
     
@@ -109,7 +110,7 @@
     }
     
     
-    .caja .titulo{
+    .caja .titulor{
         display: flex;
         justify-content: center;
         align-self: center;
@@ -293,7 +294,7 @@
        
     }
     
-    .caja .titulo{
+    .caja .titulor{
         display: flex;
         justify-content: center;
         align-self: center;

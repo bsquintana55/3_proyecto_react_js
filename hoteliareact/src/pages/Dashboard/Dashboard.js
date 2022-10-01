@@ -4,7 +4,7 @@ import Info from '../../../../hoteliareact/src/components/infodash/Info.js';
 
 function Dashapp() {
   return (
-    <div >
+    <div class="bodydash" >
      <Usbar />
    <Info/>
     </div>

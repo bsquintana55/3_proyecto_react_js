@@ -6,12 +6,12 @@ function Datos(){
    return(
    
  
-    <section className='bodyreg'>
+   
 
     <div class="from">
 
     <section class="caja">
-        <div class="titulo">
+        <div class="titulor">
             <h2>Regístrate</h2>
         </div>
 
@@ -78,7 +78,7 @@ function Datos(){
 
     </section>
 </div>
-</section>
+
 
 
    );

@@ -1,4 +1,3 @@
-
 import './login.css';
 import logo from './horizontal_negro.svg';
 function Login() {
@@ -8,28 +7,30 @@ function Login() {
      
     <div class="cajagrande"> 
         <div id="logologin">
-            <img src={logo}/>
+            <img id="logologin" src={logo}/>
         </div>
         <div class="peque">
-            <i class="fa-solid fa-user"></i>
-            <form  action="#">
+            <i id='loginI' class="fa-solid fa-user"></i>
+            <form id='fomlogin' action="#">
 
                 <div class="picky">
-                    <label for="">Usuario</label>
-                    <input class="inputlog"  type="text"/>
+                    <label id="labellogin" for="">Usuario</label>
+                    <input id="inputlogin"  type="text"/>
                 </div>
 
                 <div class="picky">
-                    <label for="">Contraseña</label>
-                    <input class="inputlog"  type="password"/>
+                    <label id="labellogin"  for="">Contraseña</label>
+                    <input id="inputlogin"  type="password"/>
                 </div>
                 
-                <button id="botonl"><a href="/Dashboard">Ingresar</a></button>
+                <button id="bonlogin">
+                    <a id="alogin"href="/Dashboard">Ingresar</a>
+                </button>
                 <br/>
 
-                <p>¿No tienes una cuenta? <a href="/Registrar">Regístrate aquí.</a> </p>
+                <p id='plogin'>¿No tienes una cuenta? <a id="alogin" href="/Registrar">Regístrate aquí.</a> </p>
                 <br/>
-                <p>¿quiere ir al index? <a href="/inicio">Clic Aqui.</a> </p>
+                <p id='plogin'>¿quiere ir al index? < a id="alogin"href="/">Clic Aqui.</a> </p>
             </form>
         
         </div>

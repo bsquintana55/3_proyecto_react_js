@@ -13,7 +13,7 @@
   --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
 }
 @media screen and (min-width: 600px) and (max-width: 2000px){
-    body{
+    .bodyreg{
         height: 110vh;
         background-image: url(../../components/img/registrarfondo.jpg);
         background-repeat: no-repeat;
@@ -190,7 +190,7 @@
     
 }
 @media screen  and (max-width: 600px){
-    body{
+    .bodyreg{
         background-image: url(../../components/img/registrarfondo.jpg);
         background-size: cover;
         width: 100vh;
