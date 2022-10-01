@@ -7,16 +7,27 @@ import './index.css';
 
 import Inicio from './pages/index/inicio.js';
 import Login from './pages/login/login.js';
+import Opinion from './components/opinion/Opinion';
 
+/*  
+<BrowserRouter>
+ <Routes>
+    
+    <Route path={'/'} element={<Inicio />}/>
+    <Route path={'/Login'} element={<Login />}/>
+   
 
+    </Routes>
+    </BrowserRouter>
+     */
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
   <React.StrictMode>
-    <BrowserRouter>
-    <Routes>
+   <BrowserRouter>
+ <Routes>
     
     <Route path={'/'} element={<Inicio />}/>
     <Route path={'/Login'} element={<Login />}/>

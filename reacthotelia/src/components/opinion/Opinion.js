@@ -1,9 +1,12 @@
 import './opi.css';
+import Foto from './Proimagen';
+import Nombre from './Pronombre';
+import Estrella from './Prostar';
+import Desc from './Prodesc';
 
 function Opinion() { 
     return(
       
-    
      <section>
         <section class="opinio">
         <div class="titulo"><h1>Nuestros usuarios dicen...</h1></div>
@@ -11,67 +14,115 @@ function Opinion() {
 
             <div id="op" >
                     <div class="nombreP">
-                        <img src="https://www.redaccionmedica.com/images/destacados/-buscamos-la-recuperacion-completa-de-la-persona-con-depresion--7353.jpg
+                        <Foto 
+                        foto="https://www.redaccionmedica.com/images/destacados/-buscamos-la-recuperacion-completa-de-la-persona-con-depresion--7353.jpg
                         "/>
-                        
-                        <h5>Camilo Sanchez</h5>
+                       <Nombre
+                        nom=" Camilo Sanchez" />
                     </div>
+                    
                     <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star roja"></i>
+                        <Estrella
+                        stall="fa-solid fa-star"
+                        />
+                         <Estrella
+                        stall="fa-solid fa-star"
+                        />
+                         <Estrella
+                        stall="fa-solid fa-star"
+                        />
+                         <Estrella
+                        stall="fa-solid fa-star"
+                        />
+                         <Estrella
+                        stall="fa-solid fa-star"
+                        />
+
                     </div>  
                     
                     <div class="descripcion">                            
-                    <p>Lorem ipsum dolor sit amet, consectet adipiscing elit.
-                        Elit quis enim ultricies ullamcorper.
-                        Nunc aenean auctor vel diam dictum.</p>
+                    <Desc
+                    descripcion="Lorem ipsum dolor sit amet, consectet adipiscing elit.
+                    Elit quis enim ultricies ullamcorper.
+                    Nunc aenean auctor vel diam dictum."
+                    />
                     </div>
             </div>
 
-            <div id="op">
-                <div class="nombreP">
-                    <img src="https://estudiantes.ucontinental.edu.pe/wp-content/uploads/2020/09/Madurez-emocional-7.jpg
-                    "/>
+            <div id="op" >
+                    <div class="nombreP">
+                        <Foto 
+                        foto="https://estudiantes.ucontinental.edu.pe/wp-content/uploads/2020/09/Madurez-emocional-7.jpg
+                        "/>
+                       <Nombre
+                        nom="Fernanda Peralta" />
+                    </div>
                     
-                    <h5>Fernada Peralta</h5>
-                   
-                </div>
-                <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-          </div>  
-                <div class="descripcion">                            
-                    <p>Lorem ipsum dolor sit amet, consectet adipiscing elit.
-                        Elit quis enim ultricies ullamcorper.
-                        Nunc aenean auctor vel diam dictum.</p>
-                </div>
-            </div>
-            <div id="op">
-                <div class="nombreP">
-                 <img src="https://img.freepik.com/foto-gratis/joven-confiado_1098-20868.jpg?w=2000
-                    "/> 
-                   
-                        <h5>Andres Martinez</h5>
+                    <div class="stars">
+                        <Estrella
+                        stall="fa-solid fa-star"
+                        />
+                         <Estrella
+                        stall="fa-solid fa-star"
+                        />
+                         <Estrella
+                        stall="fa-solid fa-star"
+                        />
+                         <Estrella
+                        stall="fa-solid fa-star"
+                        />
+                         <Estrella
+                        stall="fa-solid fa-star"
+                        />
+
+                    </div>  
                     
-                </div>
-                <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-          </div>  
-                <div class="descripcion">                            
-                    <p>Lorem ipsum dolor sit amet, consectet adipiscing elit.Elit quis enim 
-                        ultricies ullamcorper. Nunc aenean auctor vel diam dictum.</p>
-                </div>
+                    <div class="descripcion">                            
+                    <Desc
+                    descripcion="Lorem ipsum dolor sit amet, consectet adipiscing elit.
+                    Elit quis enim ultricies ullamcorper.
+                    Nunc aenean auctor vel diam dictum."
+                    />
+                    </div>
             </div>
+            <div id="op" >
+                    <div class="nombreP">
+                        <Foto 
+                        foto="https://img.freepik.com/foto-gratis/joven-confiado_1098-20868.jpg?w=2000
+                        "/>
+                       <Nombre
+                        nom="Andres Martinez" />
+                    </div>
+                    
+                    <div class="stars">
+                        <Estrella
+                        stall="fa-solid fa-star"
+                        />
+                         <Estrella
+                        stall="fa-solid fa-star"
+                        />
+                         <Estrella
+                        stall="fa-solid fa-star"
+                        />
+                         <Estrella
+                        stall="fa-solid fa-star"
+                        />
+                         <Estrella
+                        stall="fa-solid fa-star"
+                        />
+
+                    </div>  
+                    
+                    <div class="descripcion">                            
+                    <Desc
+                    descripcion="Lorem ipsum dolor sit amet, consectet adipiscing elit.
+                    Elit quis enim ultricies ullamcorper.
+                    Nunc aenean auctor vel diam dictum."
+                    />
+                    </div>
+            </div>
+
+
         </div>
     </section>
 
