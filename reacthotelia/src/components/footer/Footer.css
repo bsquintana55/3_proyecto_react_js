@@ -19,10 +19,7 @@
     margin:0;
 }
 
-body{
-    font-family: 'Marcellus', serif;
-    font-size: 16px;
-}
+
 
 
 h1,h2,h3,h4,h5{
@@ -37,7 +34,7 @@ h1,h2,h3,h4,h5{
     background-color: #1f1e1e;
     color: white;
     padding: 2%;
-    margin-top: 13rem;
+    margin-top: 9rem;
 }
 
 

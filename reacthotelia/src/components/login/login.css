@@ -22,25 +22,25 @@
     margin: 0;
 }
 
-body{
+.bodyLogin{
     background: url(../login/pieza.png) no-repeat;
     background-size: cover;
     color: white;
     max-height: 50%;
-    padding-top: 10rem;
+    padding-top: 5rem;
     font-family: 'Roboto', sans-serif;
     height: 100vh;
     color: white;
    
 }
 
-#logo{
+#logologin{
     display: flex;
     justify-content: flex-start;
     padding: 1rem;
     
    
-} #logo img{
+} #logologin img{
     width:10rem;
 }
 
@@ -53,18 +53,16 @@ p{
     font-family: 'Roboto', sans-serif;
     font-size: 1rem ;
     text-align: center;
-    text-shadow: -1px 1px rgb(153, 153, 153);
 }
 .cajagrande{
-    padding-top: 10px;
+    padding-top: 3px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-image:  url(../login/login.jpeg);
     opacity: 0.95;
     width: 300px;
-    padding-bottom: 2rem;
-    border-radius: 2px;
+    border-radius: 13px;
     margin-left: auto;
     margin-right: auto;
     
@@ -94,7 +92,7 @@ p{
 }
 
 
-#boton{
+#botonl{
     font-size: 1.5rem;
     color: #fff;
     background-color: #000000;
@@ -121,7 +119,7 @@ p{
     .peque{
         flex-direction: column;
     }
-    input {
+   .inputlog {
         padding-left: 0.8rem;
         height: 1.8rem;
         border-radius: 8px;
@@ -131,7 +129,7 @@ p{
 
 }
 @media screen and (min-width: 768px){
-   #boton a{
+   #botonl a{
         text-decoration: none;
         font-size: 1rem;
     }

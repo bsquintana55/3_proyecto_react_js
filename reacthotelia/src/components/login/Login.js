@@ -1,41 +1,41 @@
+
 import './login.css';
 import logo from './horizontal_negro.svg';
 function Login() {
     return(
       
-
+<section className='bodyLogin'>
      
     <div class="cajagrande"> 
-        <div id="logo">
+        <div id="logologin">
             <img src={logo}/>
         </div>
         <div class="peque">
             <i class="fa-solid fa-user"></i>
-            <form action="#">
+            <form  action="#">
 
                 <div class="picky">
                     <label for="">Usuario</label>
-                    <input type="text"/>
+                    <input class="inputlog"  type="text"/>
                 </div>
 
                 <div class="picky">
                     <label for="">Contraseña</label>
-                    <input type="text"/>
+                    <input class="inputlog"  type="password"/>
                 </div>
-
-
-                <button id="boton"><a href="/dashboard.html">Ingresar</a></button>
+                
+                <button id="botonl"><a href="/Dashboard">Ingresar</a></button>
                 <br/>
 
-                <p>¿No tienes una cuenta? <a href="/registrar.html">Regístrate aquí.</a> </p>
+                <p>¿No tienes una cuenta? <a href="/Registrar">Regístrate aquí.</a> </p>
                 <br/>
-                <p>¿quiere ir al index? <a href="/index.html">Clic Aqui.</a> </p>
+                <p>¿quiere ir al index? <a href="/inicio">Clic Aqui.</a> </p>
             </form>
         
         </div>
     </div>
 
-      
+    </section>
     );
     
 

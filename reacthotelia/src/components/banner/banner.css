@@ -38,12 +38,12 @@ h1,h2,h3,h4,h5{
     align-items: flex-end;
 }
 
-#banner h4{
+#banner #h4banner{
     color: var(--blanco);
-    background-color: rgba(0, 0, 0, 0.4);
-    width: 55%;
+    background-color: rgba(0, 0, 0, 0.522);
+    width: 100%;
     padding: 1rem;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 
@@ -62,7 +62,7 @@ h1,h2,h3,h4,h5{
         align-items: flex-end;
     }
     
-    #banner h4 {
+    #banner #h4banner {
         color: var(--blanco);
         background-color: rgba(0, 0, 0, 0.4);
         width: 92%;

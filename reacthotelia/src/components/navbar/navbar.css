@@ -17,10 +17,6 @@
     margin:0;
 }
 
-body{
-    font-family: 'Marcellus', serif;
-    font-size: 16px;
-}
 
 
 h1,h2,h3,h4,h5{
@@ -36,6 +32,11 @@ nav{
       font-family: 'Marcellus', serif;
       font-size: 1.3em;
       padding: 1rem;
+}
+
+.menu{
+      display: flex;
+      justify-content: space-between;
 }
 
 
@@ -59,13 +60,14 @@ nav a{
 
 nav a:hover{
     color: var(--azuloscuro);
-    width: 100%;
+ 
 }
 
 
 
 .logo img{
-    height: 4rem;     
+      height: 3.5rem;
+      padding-left: 2rem; 
 }
 
 
@@ -195,10 +197,9 @@ nav a:hover{
           width: 100%;
           transition: .5s ease;  
     }
-
-    .menu.active
-    {
-          display: flex;
-          transform: translateY(0%);
-    }
+    
+    .menu.active {
+      display: flex;
+      transform: translateY(0%);
+  }
 }
