@@ -1,0 +1,14 @@
+.bodyerror{
+    height: 110vh;
+    background-image: url(../../pages/error/Error404.png);
+    background-repeat: no-repeat;
+    margin-top: 9rem;
+    margin-left: 17rem;
+    background-size:76%;
+    
+}
+   
+h1,h2,h3,h4,h5{
+    font-family: 'Marcellus', serif;
+    margin-left: 10px;
+}
