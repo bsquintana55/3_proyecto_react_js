@@ -580,3 +580,45 @@ i#iconS{
         display: none;
     }
 }
+
+
+@media screen and (min-width: 1025px)  {
+
+    .contenido {
+        width: 75%;
+        height: 95vh;
+        margin-left: 17%;
+        border-radius: 1%;
+        background-color: rgba(255, 255, 255, 0.74);
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+    }
+    
+    
+    .foto img {
+        border-radius: 5%;
+        margin-bottom: 5%;
+        width: 51%;
+        height: 14em;
+    }
+    
+    .contra {
+        width: 52%;
+        height: 14%;
+        border-radius: 2%;
+        background-color: var(--negro);
+        margin-top: 7%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+}
