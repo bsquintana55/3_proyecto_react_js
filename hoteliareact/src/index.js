@@ -14,13 +14,10 @@ import Registrar from './pages/Registrar/Registrar.js';
 import Error404 from './pages/error/Error404.js';
 
 
-import Users from './pages/Users';
+import Users from './pages/Listar/Users';
 import ListHuesped from './pages/Modal';
 
 import "https://kit.fontawesome.com/6131ecdde6.js";
-
-
-
 /*  
 <BrowserRouter>
  <Routes>
@@ -44,13 +41,13 @@ root.render(
  <Routes>
     
     
-      <Route path={'/'} element={<Inicio />}/>
-      <Route path={'/Login'} element={<Login />}/>
-      <Route path={'/Registrar'} element={<Registrar/>} />
-      <Route path={'/Dashboard'} element={<Dashboard/>} />
-      <Route path={'/*'} element={<Error404/>} />  
-      <Route path='/Users' element={<Users/>}></Route>
-      <Route path='/Huespedes' element={<ListHuesped/>}></Route>
+      <Route path={'/'} element={<Inicio />} />
+      <Route path={'/Login'} element={<Login />} />
+      <Route path={'/Registrar'} element={<Registrar />} />
+      <Route path={'/Dashboard'} element={<Dashboard />} />
+      <Route path={'/*'} element={<Error404 />} />  
+      <Route path='/Usuario' element={<Users />} />
+      <Route path='/Huesped' element={<ListHuesped/>} />
 
     </Routes>
     </BrowserRouter>

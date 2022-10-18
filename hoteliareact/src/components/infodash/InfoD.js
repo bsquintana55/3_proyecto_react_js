@@ -83,6 +83,10 @@ function InfoD(){
                                        <label class="forml"for="">Email</label>
                                        <input class="formin"  type="text"/>
                                 </div>
+                                <div class="form">
+                                       <label class="forml"for="">Tipo de usuario</label>
+                                       <input class="formin"  type="text"/>
+                                </div>
 
                           </div>
 

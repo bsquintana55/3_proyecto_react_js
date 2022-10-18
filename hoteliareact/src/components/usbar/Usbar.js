@@ -35,7 +35,7 @@ function Usbar(){
             <a href="" class="serv"><i class="fa-solid fa-bell-concierge" id="iconS"></i><p>Habitaciones</p></a>
             </div>
             <div class="cerrar">
-            <Link to='/Registrar'><i class="fa-solid fa-arrow-right-from-bracket" id="serv"></i><p>Cerrar sesión</p></Link>
+            <Link to='/'><i class="fa-solid fa-arrow-right-from-bracket" id="serv"></i><p>Cerrar sesión</p></Link>
             </div>
       </div>              
 </section>
