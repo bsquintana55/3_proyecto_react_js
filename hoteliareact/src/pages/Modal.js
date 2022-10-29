@@ -13,7 +13,7 @@ function ListHuesped(){
         const response=axios.get(url);
         return response;
     }
-
+ 
     /*3. useState para guardar la respuesta de la petición en un estado y poderla usar en un componente */
     const [list,setList]=useState([]);
 
@@ -44,7 +44,7 @@ function ListHuesped(){
         if(response.status===200){
             Swal.fire(
                 'Cambio Guardado!',
-                `El estudiante <strong> ${response.data._nombre} ${response.data._apellido}</strong> ha sido actualizado exitosamente!`,
+                `El huesped <strong> ${response.data._nombre} ${response.data._apellido}</strong> ha sido actualizado exitosamente!`,
                 'success'
             )
             handleClose();
@@ -53,7 +53,7 @@ function ListHuesped(){
         else{
             Swal.fire(
                 'Error!',
-                'Hubo un problema al actualizar el estudiante!',
+                'Hubo un problema al actualizar el huesped!',
                 'error'
             )
         }

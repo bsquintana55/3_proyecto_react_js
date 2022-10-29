@@ -11,7 +11,7 @@ function Users()
             <h1>Lista Usuarios</h1>
 
             <ListUser />
-        </>
+        </> 
     );
 }
 export default Users;

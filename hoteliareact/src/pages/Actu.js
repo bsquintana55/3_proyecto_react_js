@@ -30,14 +30,14 @@ function ListarReg({users,setUplist,upList,handleOpen,setDataModal}){
                   if (response.status === 200) {
                     Swal.fire(
                         'Eliminado!',
-                        `El estudiante ha sido eliminado exitosamente!`,
+                        `El usuario ha sido eliminado exitosamente!`,
                         'success'
                     )
                     setUplist(!upList);
                 }else {
                     Swal.fire(
                         'Error!',
-                        'Hubo un problema al eliminar el estudiante!',
+                        'Hubo un problema al eliminar el usuario!',
                         'error'
                     )
                 }
@@ -69,7 +69,7 @@ function ListarReg({users,setUplist,upList,handleOpen,setDataModal}){
             
         </Card>
         </div>
-     
+      
     );
 }
 export default ListarReg;

@@ -32,7 +32,6 @@ function Usbar(){
             <a href="/Usuario" class="serv"><i class="fa-solid fa-bed" id="iconS"></i><p>Usuarios</p></a>
             <a href="" class="serv"><i class="fa-solid fa-bell-concierge" id="iconS"></i><p>Reservas</p></a>
             <a href="/Huesped" class="serv"><i class="fa-solid fa-bed" id="iconS"></i><p>Habitaciones</p></a>
-            <a href="" class="serv"><i class="fa-solid fa-bell-concierge" id="iconS"></i><p>Habitaciones</p></a>
             </div>
             <div class="cerrar">
             <Link to='/'><i class="fa-solid fa-arrow-right-from-bracket" id="serv"></i><p>Cerrar sesión</p></Link>
