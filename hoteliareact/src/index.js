@@ -47,7 +47,7 @@ root.render(
       <Route path={'/Dashboard'} element={<Dashboard />} />
       <Route path={'/*'} element={<Error404 />} />  
       <Route path='/Usuario' element={<Users />} />
-      <Route path='/Huesped' element={<ListHuesped/>} />
+      <Route path='/Huesped' element={<ListHuesped />} />
 
     </Routes>
     </BrowserRouter>

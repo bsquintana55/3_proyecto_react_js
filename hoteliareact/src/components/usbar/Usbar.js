@@ -29,9 +29,9 @@ function Usbar(){
       </div>
       <div class="servicios"> 
             <div class="op">
-            <a href="" class="serv"><i class="fa-solid fa-bed" id="iconS"></i><p>Habitaciones</p></a>
+            <a href="/Usuario" class="serv"><i class="fa-solid fa-bed" id="iconS"></i><p>Usuarios</p></a>
             <a href="" class="serv"><i class="fa-solid fa-bell-concierge" id="iconS"></i><p>Reservas</p></a>
-            <a href="" class="serv"><i class="fa-solid fa-bed" id="iconS"></i><p>Habitaciones</p></a>
+            <a href="/Huesped" class="serv"><i class="fa-solid fa-bed" id="iconS"></i><p>Habitaciones</p></a>
             <a href="" class="serv"><i class="fa-solid fa-bell-concierge" id="iconS"></i><p>Habitaciones</p></a>
             </div>
             <div class="cerrar">
