@@ -141,7 +141,7 @@ function ListHuesped(){
                 <Form.Label>Fecha de Nacimiento</Form.Label>
                 <Form.Control 
                 type="date" 
-                placeholder="Fehca"
+                placeholder="Fecha de nacimiento"
                 name="fnacimiento" 
                 value={dataModal.fnacimiento}
                 onChange={handleChangeModal}/> 
