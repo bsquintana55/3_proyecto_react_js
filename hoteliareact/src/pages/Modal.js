@@ -168,9 +168,10 @@ function ListHuesped(){
             </Form.Group>
 
              <Form.Group className="mb-3">
-            <Form.Label>Tipo de Documento</Form.Label>
+            <Form.Label>Pais de origen</Form.Label>
             <Form.Select 
             name="paisorigen"
+            value={dataModal.paisorigen}
             onChange={handleChangeModal}>
                 <option>Seleccione el País de Origen</option>
                 <option value="Colombia">Colombia</option>

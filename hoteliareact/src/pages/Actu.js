@@ -2,7 +2,7 @@ import { Card } from "react-bootstrap";
 import axios from "axios";
 import Swal from'sweetalert2';
 
-function ListarReg({users,setUplist,upList,handleOpen,setDataModal}){
+function ListarReg({us,setUplist,upList,handleOpen,setDataModal}){
 
     /*1. Crear petición asíncrona*/
     const url="https://hoteliakuepa.herokuapp.com/users"; 
@@ -23,7 +23,7 @@ function ListarReg({users,setUplist,upList,handleOpen,setDataModal}){
 
             if (result.isConfirmed) {
                 /*Eliminando de la BD */
-                axios.delete(`${url}/${users._id}`).then((response)=>{
+                axios.delete(`${url}/${us._id}`).then((response)=>{
                 console.log(response);
                 
                 /*Eliminando estado */
@@ -52,16 +52,25 @@ function ListarReg({users,setUplist,upList,handleOpen,setDataModal}){
     /*3. Función para editar un registro*/
     const handleEdit=()=>{
         handleOpen();
-        setDataModal(users);
+        setDataModal(us);
     }
     return(
         <div className="col-4 mb-3">
         <Card style={{ width: '18rem' }}>
             <Card.Body>
-                <Card.Title className="text-center">{users.nombre} {users.apellido}</Card.Title>
+                <Card.Title className="text-center">{us.nombre} {us.apellido}</Card.Title>
                 <Card.Text>
-                <strong>Tipo Documento: </strong>{users.tipodoc}<br/>
-                <strong>No. Documento: </strong>{users.numdoc}<br/>                
+                <strong>Tipo Documento: </strong>{us._id}<br/>
+                <strong>Tipo de documento: </strong>{us.tipodoc}<br/>      
+                <strong> Nombre </strong>{us.nombre}<br/>      
+                <strong> Apellido </strong>{us.apellido}<br/>      
+                <strong>Fecha de nacimiento </strong>{us.fnacimiento}<br/>   
+                <strong>Genero </strong>{us.genero}<br/> 
+                <strong> Gmail </strong>{us.email}<br/> 
+                <strong> telefono </strong>{us.telefono}<br/> 
+                <strong> Pais Origen </strong>{us.paisorigen}<br/> 
+                <strong> Clave </strong>{us.password}<br/> 
+                <strong> Tipo de Usuario </strong>{us.tipouser}<br/>              
                 </Card.Text>
                 <button className="btn btn-warning me-2" onClick={handleEdit}>Editar</button>
                 <button className="btn btn-danger" onClick={handleDelete}>Eliminar</button>
